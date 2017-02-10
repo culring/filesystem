@@ -2,7 +2,14 @@
 
 It is a simple example of filesystem running on Linux which is based on idea of files kept in a single catalogue. You can add files from your disk and also     download them back, observe an actual memory map and display all the names of existing files.
 
-Run fs with arguments '<create> <path_to_filesystem> <number_of_bytes_for_filesystem>' to create new file system. If you want to open an existing one just change arguments for '<open> <path_to_filesytem>'. Then program runs and you can call some functions which you can pass arguments (each one must be written in separate lines):
+Run fs with arguments:
+	
+	create path_to_filesystem number_of_bytes_for_filesystem
+to create new file system. If you want to open an existing one just change arguments for:
+
+	open path_to_filesytem 
+	
+Then program runs and you can call some functions with proper arguments (each one must be written in separate line):
 	
 	- copy_to_fs - copies a file from our disk to the file system, i.e.:
 	  copy_to_fs 
