@@ -1,10 +1,11 @@
 # filesystem
 
-It is a simple example of filesystem running on Linux which is based on idea of files kept in a single catalogue. You can add files from your disk and also     download them back, observe an actual memory map and display all the names of existing files.
+It is a simple example of a file system which is based on idea of keeping files in a single catalogue. You can add files from your disk and also download them back, observe an actual memory map and display all the names of existing files.
 
 Run fs with arguments:
 	
 	create path_to_filesystem number_of_bytes_for_filesystem
+	
 to create new file system. If you want to open an existing one just change arguments for:
 
 	open path_to_filesytem 
@@ -38,7 +39,7 @@ You can also test the file system by running special script test1.sh which moves
 	> chmod +x test1.sh
 	> ./test1.sh test
 	
-And after all, you can clean up the catalogue by typing:
+And after all, you can clean up the catalogue with the script by typing:
 
 	> ./test1.sh clean
 	
