@@ -2,9 +2,9 @@
 
 # Table of contents
 
-* [Introduction](https://github.com/culring/filesystem/edit/master/README.md#introduction)
-* [How to use](https://github.com/culring/filesystem/edit/master/README.md#howtouse)
-* [Implemention details](https://github.com/culring/filesystem/edit/master/README.md#implementationdetails)
+* [Introduction](https://github.com/culring/filesystem/blob/master/README.md#introduction)
+* [How to use](https://github.com/culring/filesystem/blob/master/README.md#howtouse)
+* [Implemention details](https://github.com/culring/filesystem/blob/master/README.md#implementationdetails)
 
 # Introduction
 
