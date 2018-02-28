@@ -1,6 +1,16 @@
 # filesystem
 
-It is a simple example of a file system which is based on idea of keeping files in a single catalogue. You can add files from your disk and also download them back, observe an actual memory map and display all the names of existing files.
+# Table of contents
+
+* [Introduction](https://github.com/culring/filesystem/edit/master/README.md#introduction)
+* [How to use](https://github.com/culring/filesystem/edit/master/README.md#howtouse)
+* [Implemention details](https://github.com/culring/filesystem/edit/master/README.md#implementationdetails)
+
+# Introduction
+
+It is an implementation of a very simple file. Basically, you can transfer files from your disk to the file system as well as in the opposite direction, trace a current memory map or also have access to some basic linux-like operations like rm or ls.
+
+# How to use
 
 Run fs with arguments:
 	
@@ -11,7 +21,7 @@ to create new file system. If you want to open an existing one just change argum
 	open path_to_filesytem 
 	
 Then program runs and you can call some functions with proper arguments (each one must be written in separate line):
-	
+
 	- copy_to_fs - copies a file from our disk to the file system, i.e.:
 	  copy_to_fs 
 	  file.txt // name of file on our disk
@@ -42,4 +52,5 @@ You can also test the file system by running special script test1.sh which moves
 And after all, you can clean up the catalogue with the script by typing:
 
 	> ./test1.sh clean
-	
+
+# Implementation details
