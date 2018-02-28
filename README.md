@@ -4,7 +4,7 @@
 
 * [Introduction](https://github.com/culring/filesystem/blob/master/README.md#introduction)
 * [How to use](https://github.com/culring/filesystem/blob/master/README.md#how-to-use)
-* [Testing](.#testing)
+* [Testing](./#testing)
 * [Implemention details](https://github.com/culring/filesystem/blob/master/README.md#implementation-details)
 
 # Introduction
@@ -25,20 +25,20 @@ Once program runs, you can do some stuff with a file system (keep each command/a
 
 - _copy_to_fs_ copies a file from your disk to the file system, i.e.:
 
-	  copy_to_fs 
-	  <name of file on our disk>
-	  <name for a file in the file system>
+	  	copy_to_fs 
+	  	<name of file on our disk>
+	  	<name for a file in the file system>
 	  
 - _copy_to_os_ copies a file from the file system to our disk, i.e.:
 
-	   copy_to_fs
-	   <name of a file in the file system>
-	   <name for new, copied file on our disk>
+	  	copy_to_os
+	  	<name of a file in the file system>
+	  	<name for new, copied file on our disk>
 
 - _rm_ removes a file from the file system, i.e.:
-		
-	rm
-	<name of file>
+	
+		rm
+		<name of file>
 
 - _show_memory_map_ displays a current memory map of the file system
 
