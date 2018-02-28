@@ -3,14 +3,14 @@
 # Table of contents
 
 * [Introduction](https://github.com/culring/filesystem/blob/master/README.md#introduction)
-* [How to use](https://github.com/culring/filesystem/blob/master/README.md#howtouse)
-* [Implemention details](https://github.com/culring/filesystem/blob/master/README.md#implementationdetails)
+* [How to use](https://github.com/culring/filesystem/blob/master/README.md#how-to-use)
+* [Implemention details](https://github.com/culring/filesystem/blob/master/README.md#implementation-details)
 
 # Introduction
 
 It is an implementation of a very simple file. Basically, you can transfer files from your disk to the file system as well as in the opposite direction, trace a current memory map or also have access to some basic linux-like operations like rm or ls.
 
-# How to use
+# How-to-use
 
 Run fs with arguments:
 	
@@ -53,4 +53,4 @@ And after all, you can clean up the catalogue with the script by typing:
 
 	> ./test1.sh clean
 
-# Implementation details
+# Implementation-details
