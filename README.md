@@ -11,13 +11,13 @@ It is an implementation of a very simple file system. Basically, you can transfe
 
 # How-to-use
 
-You can create a new file system with following arguments:
+To create a new file system run the application with following arguments:
 
 ```
 create <path to filesystem> <number of bytes for filesystem>
 ```
 
-If you want to open an existing one, change command for:
+If you want to open an existing one, change arguments for:
 
 ```
 open <path to filesytem> 
