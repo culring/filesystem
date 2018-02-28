@@ -3,9 +3,9 @@
 # Table of contents
 
 * [Introduction](#introduction)
-* [How to use](https://github.com/culring/filesystem/blob/master/README.md#how-to-use)
-* [Testing](https://github.com/culring/filesystem/blob/master/README.md#testing)
-* [Implemention details](https://github.com/culring/filesystem/blob/master/README.md#implementation-details)
+* [How to use](#how-to-use)
+* [Testing](#testing)
+* [Implemention details](#implementation-details)
 
 # Introduction
 
