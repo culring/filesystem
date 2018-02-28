@@ -4,6 +4,7 @@
 
 * [Introduction](https://github.com/culring/filesystem/blob/master/README.md#introduction)
 * [How to use](https://github.com/culring/filesystem/blob/master/README.md#how-to-use)
+* [Testing](.#testing)
 * [Implemention details](https://github.com/culring/filesystem/blob/master/README.md#implementation-details)
 
 # Introduction
@@ -12,45 +13,54 @@ It is an implementation of a very simple file. Basically, you can transfer files
 
 # How-to-use
 
-Run fs with arguments:
+You can create a new file system with following arguments:
 	
-	create path_to_filesystem number_of_bytes_for_filesystem
+	create <path to filesystem> <number of bytes for filesystem>
 	
-to create new file system. If you want to open an existing one just change arguments for:
+If you want to open an existing one, change command for:
 
-	open path_to_filesytem 
+	open <path to filesytem> 
 	
-Then program runs and you can call some functions with proper arguments (each one must be written in separate line):
+Once program runs, you can do some stuff with a file system (keep each command/argument in a separate line):
 
-	- copy_to_fs - copies a file from our disk to the file system, i.e.:
+- _copy_to_fs_ copies a file from your disk to the file system, i.e.:
+
 	  copy_to_fs 
-	  file.txt // name of file on our disk
-	  file // name for a file in the file system
+	  <name of file on our disk>
+	  <name for a file in the file system>
+	  
+- _copy_to_os_ copies a file from the file system to our disk, i.e.:
 
-	- copy_to_os - copies a file from the file system to our disk, i.e.:
 	   copy_to_fs
-	   file // name of a file in the file system
-	   file.txt // name for new, copied file on our disk
+	   <name of a file in the file system>
+	   <name for new, copied file on our disk>
 
-	- rm - removes a file from the file system, i.e.:
-		rm
-		file
+- _rm_ removes a file from the file system, i.e.:
+		
+	rm
+	<name of file>
 
-	- show_memory_map - displays an actual memory map of the file system
+- _show_memory_map_ displays a current memory map of the file system
 
-	- remove_fs - removes the file system from our disk
+- _remove_fs_ removes a file system
 
-	- ls - just like the command in Linux - shows content of the current catalogue
+- _ls_ just like the command in Linux - shows content of the catalogue
 
-	- exit - exits the program.
+- _exit_ terminates the program
   
-You can also test the file system by running special script test1.sh which moves three types of files: binaries, images and plain text files to a created file system and then moves them back to our disk. In the end, checks if they are unchanged after those operations. To run that script put in the command line:
+# Testing
 
-	> chmod +x test1.sh
-	> ./test1.sh test
+You can also test the file system by running special script test1.sh which moves three types of files: binaries, images and plain text files to a created file system and then moves them back to your disk. In the end, checks if they are unchanged after those operations. To run that script put in the command line:
+
+```bash
+> chmod +x test1.sh
+> ./test1.sh test	
+```
 	
 And after all, you can clean up the catalogue with the script by typing:
-
-	> ./test1.sh clean
+	
+```bash
+> ./test1.sh clean
+```
 
 # Implementation-details
