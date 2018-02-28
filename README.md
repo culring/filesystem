@@ -4,7 +4,7 @@
 
 * [Introduction](https://github.com/culring/filesystem/blob/master/README.md#introduction)
 * [How to use](https://github.com/culring/filesystem/blob/master/README.md#how-to-use)
-* [Testing](./#testing)
+* [Testing](https://github.com/culring/filesystem/blob/master/README.md#testing)
 * [Implemention details](https://github.com/culring/filesystem/blob/master/README.md#implementation-details)
 
 # Introduction
