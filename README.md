@@ -1,7 +1,5 @@
 # filesystem
 
-# Table of contents
-
 * [Introduction](#introduction)
 * [How to use](#how-to-use)
 * [Testing](#testing)
@@ -9,7 +7,7 @@
 
 # Introduction
 
-It is an implementation of a very simple file. Basically, you can transfer files from your disk to the file system as well as in the opposite direction, trace a current memory map or also have access to some basic linux-like operations like rm or ls.
+It is an implementation of a very simple file system. Basically, you can transfer files from your disk to the file system as well as in the opposite direction, trace a current memory map or have an access to some basic linux-like operations like rm or ls.
 
 # How-to-use
 
@@ -60,14 +58,14 @@ rm
   
 # Testing
 
-You can also test the file system by running special script test1.sh which moves three types of files: binaries, images and plain text files to a created file system and then moves them back to your disk. In the end, checks if they are unchanged after those operations. To run that script put in the command line:
+You can also test the file system by running a script test1.sh which moves three types of files: binaries, images and plain text files to a created file system and then moves them back to your disk. In the end, checks if they are unchanged after those operations. To run that script put in the command line:
 
 ```bash
 > chmod +x test1.sh
 > ./test1.sh test	
 ```
 	
-And after all, you can clean up the catalogue with the script by typing:
+After all, you can clean up temporary files created by script by typing:
 	
 ```bash
 > ./test1.sh clean
